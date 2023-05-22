@@ -13,7 +13,8 @@ namespace BasicCorePrograms
                 Console.WriteLine("1. Flip Coin and print percentage of Heads and Tails");
                 Console.WriteLine("2. Leap Year");
                 Console.WriteLine("3. Power of 2");
-                Console.WriteLine("4. Exit.");
+                Console.WriteLine("4. Harmonic Number");
+                Console.WriteLine("5. Exit.");
                 Console.Write("=>");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -29,6 +30,9 @@ namespace BasicCorePrograms
                         PowerOfTwo.PowerTwo();
                         break;
                     case 4:
+                        HarmonicNumber.HarmonicValue();
+                        break;
+                    case 5:
                         Environment.Exit(0);
                         break;
                     default:
