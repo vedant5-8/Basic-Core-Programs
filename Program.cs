@@ -22,7 +22,10 @@ namespace BasicCorePrograms
                     case 1:
                         FlipCoin.PercentageOfCoinFlip();
                         break;
-                    case 2: 
+                    case 2:
+                        LeapYear.CheckLeap();
+                        break;
+                    case 3: 
                         Environment.Exit(0);
                         break;
                     default:
