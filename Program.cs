@@ -14,7 +14,8 @@ namespace BasicCorePrograms
                 Console.WriteLine("2. Leap Year");
                 Console.WriteLine("3. Power of 2");
                 Console.WriteLine("4. Harmonic Number");
-                Console.WriteLine("5. Exit.");
+                Console.WriteLine("5. Quotient and Remainder");
+                Console.WriteLine("6. Exit.");
                 Console.Write("=>");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -33,6 +34,9 @@ namespace BasicCorePrograms
                         HarmonicNumber.HarmonicValue();
                         break;
                     case 5:
+                        QuotientAndRemainder.QuotientRemainder();
+                        break;
+                    case 6:
                         Environment.Exit(0);
                         break;
                     default:
