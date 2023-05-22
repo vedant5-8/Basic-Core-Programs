@@ -15,7 +15,8 @@ namespace BasicCorePrograms
                 Console.WriteLine("3. Power of 2");
                 Console.WriteLine("4. Harmonic Number");
                 Console.WriteLine("5. Quotient and Remainder");
-                Console.WriteLine("6. Exit.");
+                Console.WriteLine("6. Even or Odd");
+                Console.WriteLine("7. Exit.");
                 Console.Write("=>");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -37,6 +38,9 @@ namespace BasicCorePrograms
                         QuotientAndRemainder.QuotientRemainder();
                         break;
                     case 6:
+                        EvenOdd.checkEvenOdd();
+                        break;
+                    case 7:
                         Environment.Exit(0);
                         break;
                     default:
