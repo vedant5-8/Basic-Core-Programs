@@ -16,7 +16,9 @@ namespace BasicCorePrograms
                 Console.WriteLine("4. Harmonic Number");
                 Console.WriteLine("5. Quotient and Remainder");
                 Console.WriteLine("6. Even or Odd");
-                Console.WriteLine("7. Exit.");
+                Console.WriteLine("7. Swap two numbers using temporary variable");
+                Console.WriteLine("8. Swap two numbers without using temporary variable");
+                Console.WriteLine("9. Exit.");
                 Console.Write("=>");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -41,12 +43,20 @@ namespace BasicCorePrograms
                         EvenOdd.checkEvenOdd();
                         break;
                     case 7:
+                        SwapNumbers.swapWithTemp();
+                        break;
+                    case 8:
+                        SwapNumbers.swapWithoutTemp();
+                        break;
+                    case 9:
                         Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Enter correct choice.");
                         break;
                 }
+
+                Console.WriteLine();
             }
 
         }
