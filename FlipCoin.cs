@@ -10,7 +10,7 @@ namespace Basic_Core_Programs
     {
         public static void PercentageOfCoinFlip()
         {
-            Random random = new Random();
+            Random random = new();
             Console.WriteLine("Write how many times you want to flip the coin: ");
             int numberOfFlips = Convert.ToInt32(Console.ReadLine());
 
