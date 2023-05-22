@@ -25,7 +25,10 @@ namespace BasicCorePrograms
                     case 2:
                         LeapYear.CheckLeap();
                         break;
-                    case 3: 
+                    case 3:
+                        PowerOfTwo.PowerTwo();
+                        break;
+                    case 4:
                         Environment.Exit(0);
                         break;
                     default:
