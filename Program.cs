@@ -53,6 +53,9 @@ namespace BasicCorePrograms
                     case 9:
                         LargestNumber.checkLargestNumber();
                         break;
+                    case 10:
+                        VowelsConsonants.checkVowelsOrConsonants();
+                        break;
                     case 11:
                         Environment.Exit(0);
                         break;
