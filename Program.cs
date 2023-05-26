@@ -18,7 +18,9 @@ namespace BasicCorePrograms
                 Console.WriteLine("6. Even or Odd");
                 Console.WriteLine("7. Swap two numbers using temporary variable");
                 Console.WriteLine("8. Swap two numbers without using temporary variable");
-                Console.WriteLine("9. Exit.");
+                Console.WriteLine("9. Find the Largest Among Three Numbers");
+                Console.WriteLine("10. Check Whether an Alphabet is Vowel or Consonant.");
+                Console.WriteLine("11. Exit.");
                 Console.Write("=>");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -49,6 +51,9 @@ namespace BasicCorePrograms
                         SwapNumbers.swapWithoutTemp();
                         break;
                     case 9:
+                        LargestNumber.checkLargestNumber();
+                        break;
+                    case 11:
                         Environment.Exit(0);
                         break;
                     default:
