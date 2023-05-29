@@ -20,7 +20,8 @@ namespace BasicCorePrograms
                 Console.WriteLine("8. Swap two numbers without using temporary variable");
                 Console.WriteLine("9. Find the Largest Among Three Numbers");
                 Console.WriteLine("10. Check Whether an Alphabet is Vowel or Consonant.");
-                Console.WriteLine("11. Exit.");
+                Console.WriteLine("11. Computes the prime factorization.");
+                Console.WriteLine("12. Exit.");
                 Console.Write("=>");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -57,6 +58,9 @@ namespace BasicCorePrograms
                         VowelsConsonants.checkVowelsOrConsonants();
                         break;
                     case 11:
+                        PrimeFactors.Prime_Factors();
+                        break;
+                    case 12:
                         Environment.Exit(0);
                         break;
                     default:
